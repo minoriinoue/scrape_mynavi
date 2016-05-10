@@ -24,7 +24,7 @@ doc.css('.rankingBoxInner').each do |category|
             splitted = feature.split(",")
             #print splitted
             #binding.pry
-            if splitted[0] == "名詞"
+            if splitted[0] == "動詞"
                 #binding.pry
                 token = token_with_analysis.surface
                 if token_to_counters.key?(token)
@@ -41,7 +41,7 @@ doc.css('.rankingBoxInner').each do |category|
             feature = token_with_analysis.feature
             splitted = feature.split(",")
             #binding.pry
-            if splitted[0] == "名詞"
+            if splitted[0] == "動詞"
                 token = token_with_analysis.surface
                 if token_to_counters.key?(token)
                     token_to_counters[token] += 1
