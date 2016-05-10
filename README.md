@@ -7,17 +7,17 @@ Results are here: https://drive.google.com/folderview?id=0B4fWva-ZnmZzZzdmd3hHWW
 # Usage
 1. Install this repository
 2. Run the following command:
-```
-gem install open-uri
-```
-```
-gem install nokogiri
-```
-```
-gem install natto
-```
+    ```
+    gem install open-uri
+    ```
+    ```
+    gem install nokogiri
+    ```
+    ```
+    gem install natto
+    ```
 
-> optional: `gem install pry # for debugging.`
-> If you do not want to use pry, please comment out `require 'pry'` at the beginning of each file.
+    > optional: `gem install pry # for debugging.`
+    > If you do not want to use pry, please comment out `require 'pry'` at the beginning of each file.
 
 3. Run any script you want!
